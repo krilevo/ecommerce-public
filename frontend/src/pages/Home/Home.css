@@ -1,0 +1,10 @@
+.home {
+  max-width: 95%;
+  margin: auto;
+}
+
+.product-slider-container {
+  width: 60rem;
+  max-width: 100%;
+  margin: 4rem auto;
+}

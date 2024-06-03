@@ -1,0 +1,70 @@
+
+.order-management-order-info-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.order-management-order-info-back {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: gray;
+  background-color: transparent;
+  border: none;
+}
+
+.order-management-order-info {
+  position: fixed;
+  width: 40rem;
+  max-width: 98vw;
+  max-height: 98vh;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: var(--secondary-color);
+  
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+.order-management-order-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.order-management-order-info p {
+  margin: 5px 0;
+}
+
+.order-management-order-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-management-order-info ul li {
+  margin-bottom: 10px;
+}
+
+.order-management-order-info-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.order-management-order-info-btn {
+
+}
+
+.order-management-order-info-btn-active {
+  background-color: var(--btn-color);
+  color: white;
+  border: none;
+}

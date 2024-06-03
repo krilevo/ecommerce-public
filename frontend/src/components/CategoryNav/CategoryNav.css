@@ -1,0 +1,138 @@
+.category-nav-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.category-nav {
+  display: flex;
+
+  position: fixed;
+  background-color: white;
+  border-style: solid;
+  z-index: 10;
+  max-width: 100%;
+  left: 0;
+}
+
+.category-bar {
+  list-style-type: none;
+  max-width: 100%;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.category-nav-close-btn {
+  cursor: pointer;
+  border-style: none;
+  background-color: inherit;
+  color: white;
+  padding: 0 .6rem 0 .4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-category-bar {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.previous-category-btn {
+  cursor: pointer;
+  border-style: none;
+  background-color: inherit;
+  color: white;
+  padding: 0 .6rem 0 .4rem;
+  font-size: 1.2rem;
+}
+
+.category-bar-name {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: .4rem .8rem .4rem .4rem;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  /* white-space: nowrap; */
+}
+
+/* .category-bar::-webkit-scrollbar {
+  width: 0;
+}
+
+.category-bar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.category-bar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.category-bar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+.category-bar-item {
+  padding-left: .4rem;
+  height: 1.6rem;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-bar-item:hover {
+  background-color: gray;
+  color: white;
+}
+
+.category-bar-item-link {
+  text-decoration: none;
+  color: inherit;
+  padding-right: .4rem;
+}
+
+.arrow-btn {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  background-color: inherit;
+  float: right;
+  margin-left: .4rem;
+  padding: 0 .8rem;
+  height: 100%;
+}
+
+.arrow-btn:hover {
+  background-color: rgb(29, 29, 29);
+}
+
+.category-bar-item:hover button {
+  color: white;
+  border-color: white;
+}
+
+.selected {
+  background-color: gray;
+  color: white;
+}
+
+.selected button {
+  color: white;
+  border-color: white;
+}

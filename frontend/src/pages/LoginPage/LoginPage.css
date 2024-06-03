@@ -1,0 +1,13 @@
+
+.login-page {
+  
+}
+
+.login-page-link {
+  display: block;
+  width: 40rem;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+}

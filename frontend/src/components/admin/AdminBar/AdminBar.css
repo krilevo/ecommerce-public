@@ -1,0 +1,63 @@
+
+/* Header height plus admin-bar padding = 5rem */
+:root {
+  --admin-bar-height: calc(100vh - 5rem);
+}
+
+.admin-bar {
+  position: relative;
+  min-width: 14rem;
+  max-width: 14rem;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  min-height: var(--admin-bar-height);
+  left: 0;
+  transition: left .6s;
+}
+
+.admin-bar-hidden {
+  left: -16rem;
+  position: fixed;
+}
+
+.admin-bar-button{
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  right: -2rem;
+  top: 0;
+  background-color: var(--secondary-color);
+  border-style: none;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+}
+
+.admin-bar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-bar-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.admin-bar-list a:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .admin-bar {
+    position: fixed;
+  }
+}

@@ -1,0 +1,12 @@
+.user-management-container {
+  margin: 1rem;
+  margin-top: 2.4rem;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.user-management-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

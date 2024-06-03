@@ -1,0 +1,12 @@
+
+.discounted-products {
+  width: 60rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+.discounted-product-list {
+  display: flex;
+  gap: 1.2rem; 
+  overflow-x: auto; 
+}

@@ -1,0 +1,79 @@
+
+.edit-product-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.edit-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  position: fixed;
+  width: 60rem;
+  max-width: 95%;
+  margin: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  right: -60rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: right 0.3s ease-in-out;
+}
+
+.edit-product-form-visible {
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+}
+
+.edit-product-form-group {
+  
+}
+
+.edit-product-form-group input, textarea {
+  width: 100%;
+  padding: .4rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-product-form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: .2rem;
+}
+
+.edit-product-form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--btn-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: white;
+  margin-left: 10px;
+}

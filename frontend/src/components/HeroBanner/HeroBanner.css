@@ -1,0 +1,58 @@
+
+.hero-banner {
+  background-image: url('../../../public/ecommerce-banner.png');
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  width: 60rem;
+  max-width: 100%;
+  height: 25rem;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--primary-color); 
+  color: #ffffff;
+  padding: .8rem 1.4rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  /* background-color: #e05500; */
+}

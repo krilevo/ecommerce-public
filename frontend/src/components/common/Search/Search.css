@@ -1,0 +1,101 @@
+
+.search {
+  position: relative;
+  max-width: 45vw;
+}
+
+.search-input {
+  padding: .6rem;
+  border-radius: 4px;
+  border-color: transparent;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.suggestion-list {
+  position: absolute;
+  background-color: var(--secondary-color);
+  list-style-type: none;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 20rem;
+  max-width: 95vw;
+  max-height: 90svh;
+  overflow-x: auto;
+  z-index: 100;
+
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 500px) {
+  .suggestion-list {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.suggestion-list-product {
+  display: flex;
+  padding: .2rem .4rem .2rem 0;
+  height: 5rem;
+  border-bottom: 1px solid lightgray;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out; 
+}
+
+.suggestion-list-product:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.suggestion-list-image {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+
+.suggestion-list-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin-left: .4rem;
+}
+
+.suggestion-list-info-name {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.suggestion-list-price-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.suggestion-list-info-price {
+  color: var(--price-color);
+  margin: 0;
+}
+
+.suggestion-list-info-original-price {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.search .clear-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: gray;
+  font-size: 16px;
+}

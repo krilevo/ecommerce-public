@@ -1,0 +1,40 @@
+.checkout-page {
+  width: 70rem;
+  max-width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: var(--secondary-color);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-page-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 60rem;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.checkout-page-buttons > button {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  padding: .4rem;
+  border-radius: .4rem;
+  border-style: none;
+}
+
+/* Increased speficity for this to take precedence */
+.checkout-page-buttons > button.checkout-page-button-disabled {
+  background-color: var(--btn-disabled-color);
+  color: darkgray;
+  cursor: not-allowed;
+}

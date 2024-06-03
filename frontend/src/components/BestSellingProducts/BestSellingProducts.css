@@ -1,0 +1,12 @@
+
+.best-selling-products {
+  width: 60rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+.best-selling-product-list {
+  display: flex;
+  gap: 1.2rem; 
+  overflow-x: auto; 
+}

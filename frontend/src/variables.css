@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #921414;
+  --secondary-color: rgb(250, 250, 250);
+  --heading-font: 'Roboto', sans-serif;
+  --body-font: 'Open Sans', sans-serif;
+  --btn-color: #007bff;
+  --btn-disabled-color: #ccc;
+  --price-color: #ff6600;
+}

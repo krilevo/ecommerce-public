@@ -1,0 +1,24 @@
+
+.order-management-container {
+  margin: 1rem;
+  margin-top: 2.4rem;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.order-management-status-selector {
+  margin-bottom: 1rem;
+  padding: .4rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.order-management-container span {
+  margin-right: 1rem;
+  font-weight: bold;
+  float: right;
+}

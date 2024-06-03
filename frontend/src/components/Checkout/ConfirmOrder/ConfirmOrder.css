@@ -1,0 +1,45 @@
+
+.confirm-order {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  max-width: 95%;
+  margin: auto;
+}
+
+.confirm-order > h2 {
+  align-self: center;
+}
+
+.confirm-order-product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.confirm-order-product-item {
+  margin-bottom: 5px;
+}
+
+.confirm-order-total-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.confirm-order-personal-details p {
+  margin: 5px 0;
+}
+
+.confirm-order-checkbox {
+  margin-top: 40px;
+}
+
+.confirm-order-checkbox label {
+  font-size: 1rem;
+}
+
+.styled-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: .6rem;
+  cursor: pointer;
+}

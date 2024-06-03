@@ -1,0 +1,31 @@
+
+.add-category-container {
+  width: 100%;
+}
+
+.add-category-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  margin: auto;
+  margin-top: 2.4rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 30rem;
+  max-width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+}
+
+.add-category-form button {
+  background-color: var(--btn-color);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+

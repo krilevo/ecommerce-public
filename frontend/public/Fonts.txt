@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Roboto
+Author: Christian Robertson
+Url: http://www.fontsquirrel.com/fonts/roboto
+
+Font: Bungee
+Author: David Jonathan Ross
+Url: https://www.fontsquirrel.com/fonts/bungee

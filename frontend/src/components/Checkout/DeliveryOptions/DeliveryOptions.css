@@ -1,0 +1,15 @@
+.delivery-options {
+  width: 60rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+.delivery-options-radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery-options .checkout-page-error {
+  color: #ff0000;
+  font-size: 14px;
+}

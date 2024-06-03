@@ -1,0 +1,28 @@
+.personal-details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 40rem;
+  max-width: 95%;
+  margin: auto;
+}
+
+.personal-details-form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-details h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.personal-details-form label {
+  font-weight: bold;
+}
+
+.personal-details-form .checkout-page-error {
+  color: #ff0000;
+  font-size: 14px;
+}

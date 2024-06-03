@@ -1,0 +1,22 @@
+
+.product-page {
+  max-width: 95%;
+  margin: auto;
+}
+
+.edit-product-button {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 10rem;
+  max-width: 100%;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: var(--btn-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
